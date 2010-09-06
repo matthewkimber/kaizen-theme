@@ -381,9 +381,12 @@ select.namespacedropdown {
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
     border-radius: 10px;
+    -moz-box-shadow: 1px 1px 5px #ccc;
+    -webkit-box-shadow: 1px 1px 5px #ccc;
+    box-shadow: 1px 1px 5px #ccc;
     margin: 20px 10px 20px 0px;
-    padding: 8px 8px 12px 8px;
-    width: 230px;
+    padding: 10px 10px 20px 10px;
+    width: 220px;
     float: left;
     position: relative;
 }
@@ -394,8 +397,11 @@ select.namespacedropdown {
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
     border-radius: 10px;
-    margin: 20px 0px 20px 10px;
-    padding: 8px 8px 12px 8px;
+    -moz-box-shadow: 1px 1px 5px #ccc;
+    -webkit-box-shadow: 1px 1px 5px #ccc;
+    box-shadow: 1px 1px 5px #ccc;
+    margin: 20px 0px 20px 5px;
+    padding: 10px 10px 20px 10px;
     width: 678px;
     float: left;
 }
@@ -421,7 +427,7 @@ select.namespacedropdown {
 #EditLink, #HistoryLink, #ViewCodeLink, #PageAttachmentsLink,
 #DiscussLink, #BackLink, #PostReplyLink, #AdminToolsLink {
     margin-left: 0px;
-    padding: 2px;
+    padding: 3px;
     border: solid 1px #999999;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -437,7 +443,7 @@ select.namespacedropdown {
 }
 
 #PageAttachmentsLink {
-    background-image: url(Images/DropDown.png);
+    background-image: url('images/DropDown.png');
     background-repeat: no-repeat;
     background-position: right center;
     padding-right: 16px;
@@ -445,7 +451,7 @@ select.namespacedropdown {
 
 #AdminToolsLink {
     background-color: #FFDF65;
-    background-image: url(Images/DropDown.png);
+    background-image: url('images/DropDown.png');
     background-repeat: no-repeat;
     background-position: right center;
     padding-right: 16px;
@@ -509,9 +515,8 @@ p.editlink {
 
 #BreadcrumbsDiv {
     font-size: 11px;
-    padding-bottom: 1px;
-    border-bottom: solid 1px #EEEEEE;
-    border-top: solid 1px #EEEEEE;
+    padding: 4px 0px 4px 0px;
+    border-bottom: dotted 1px #eee;
     overflow: hidden;
 }
 
@@ -622,6 +627,7 @@ input.inactivenotification.discuss {
 }
 
 #FooterDiv p {
+    clear: both;
     color: #fff;
 }
 
@@ -639,6 +645,43 @@ input.inactivenotification.discuss {
 
 #FooterDiv a:hover {
     text-decoration: underline;
+}
+
+#FooterDiv h1 {
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+#FooterColumnsDiv {
+    padding: 20px 0px 20px 0px;
+    height: 240px;
+    clear: both;
+}
+
+#TicketsDiv {
+    color: #fff;
+    float: left;
+    width: 350px;
+    margin-right: 10px;
+}
+
+#AboutDiv {
+    color: #fff;
+    float: left;
+    width: 280px;
+    margin: 0px 10px 0px 10px;
+}
+
+#AboutDiv p {
+    color: #fff;
+    font-size: 16px;
+}
+
+#ReleaseDiv {
+    color: #fff;
+    float: left;
+    width: 290px;
+    margin-left: 10px;
 }
 
 #PageListTable {
@@ -738,6 +781,7 @@ input.txtsearchbox {
     background: url('images/header/search.png') no-repeat left center #fff;
     border: solid 1px #CCCCCC;
     padding-left: 23px;
+    vertical-align: middle;
 }
 
 span.signature {
