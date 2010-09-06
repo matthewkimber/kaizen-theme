@@ -355,6 +355,18 @@ select.namespacedropdown {
 
 /* Contains the Header */
 #HeaderDiv {
+    padding-top: 30px;
+}
+
+#HeaderDiv h1 {
+    background: url('images/header/logo.png') no-repeat top left;
+    width: 345px;
+    height: 55px;
+    text-indent: -9999px;
+}
+
+#HeaderDiv big {
+    display: none;
 }
 
 /* Contains the SidebarDiv and the MainDiv */
@@ -411,6 +423,9 @@ select.namespacedropdown {
     margin-left: 0px;
     padding: 2px;
     border: solid 1px #999999;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
     text-decoration: none;
 }
 
@@ -445,6 +460,9 @@ select.namespacedropdown {
 #AdminToolsDiv {
     background-color: #FFFFFF;
     border: solid 1px #999999;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
 }
 
 #AdminToolsDiv a {
@@ -533,6 +551,7 @@ div.pageoutgoinglinksmenu a:hover {
 }
 
 #PrintLinkDiv {
+    display: none;
     float: right;
     position: relative;
     padding-top: 4px;
@@ -713,13 +732,12 @@ div.warning {
 }
 
 input.txtsearchbox {
-    font-size: 11px;
-    width: 150px;
-    background-image: url(Images/Search.png);
-    background-repeat: no-repeat;
-    background-position: right center;
-    background-color: #FFFFFF;
+    font-size: 12px;
+    width: 200px;
+    height: 20px;
+    background: url('images/header/search.png') no-repeat left center #fff;
     border: solid 1px #CCCCCC;
+    padding-left: 23px;
 }
 
 span.signature {
