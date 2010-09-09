@@ -83,7 +83,7 @@ a:hover {
 
 /* Link to an external URL */
 a.externallink {
-    background-image: url(Images/ExternalLink.gif);
+    background-image: url('images/ExternalLink.gif');
     background-position: right;
     background-repeat: no-repeat;
     padding-right: 14px;
@@ -546,7 +546,7 @@ div.pageoutgoinglinksmenu a:hover {
 
 /* The link to the Page RSS */
 #RssLink {
-    background-image: url(Images/RSS.png);
+    background-image: url('images/RSS.png');
     background-repeat: no-repeat;
     text-indent: -2500px;
     display: block;
@@ -554,7 +554,7 @@ div.pageoutgoinglinksmenu a:hover {
     width: 24px;
 }
 #RssLink.discuss {
-    background-image: url(Images/RSS-Discussion.png);
+    background-image: url('images/RSS-Discussion.png');
 }
 
 #PrintLinkDiv {
@@ -565,7 +565,7 @@ div.pageoutgoinglinksmenu a:hover {
 }
 
 #PrintLink {
-    background-image: url(Images/Print.png);
+    background-image: url('images/Print.png');
     background-repeat: no-repeat;
     text-indent: -2500px;
     display: block;
@@ -583,7 +583,7 @@ div.pageoutgoinglinksmenu a:hover {
 input.activenotification {
     width: 16px;
     height: 17px;
-    background-image: url(Images/EmailNotifOn.png);
+    background-image: url('images/EmailNotifOn.png');
     padding: 0px;
     margin: 0px;
 }
@@ -591,13 +591,13 @@ input.activenotification {
 input.inactivenotification {
     width: 16px;
     height: 17px;
-    background-image: url(Images/EmailNotifOff.png);
+    background-image: url('images/EmailNotifOff.png');
     padding: 0px;
     margin: 0px;
 }
 
 input.activenotification.discuss {
-    background-image: url(Images/EmailNotifOn-Discussion.png);
+    background-image: url('images/EmailNotifOn-Discussion.png');
 }
 
 input.inactivenotification.discuss {
@@ -747,14 +747,14 @@ div.reply {
 }
 
 a.reply {
-    background-image: url(Images/MessageReply.png);
+    background-image: url('images/MessageReply.png');
     background-repeat: no-repeat;
     background-position: left center;
     padding: 0px 0px 0px 12px;
 }
 
 a.edit {
-    background-image: url(Images/MessageEdit.png);
+    background-image: url('images/MessageEdit.png');
     background-repeat: no-repeat;
     background-position: left center;
     padding: 0px 0px 0px 13px;
@@ -762,7 +762,7 @@ a.edit {
 }
 
 a.delete {
-    background-image: url(Images/MessageDelete.png);
+    background-image: url('images/MessageDelete.png');
     background-repeat: no-repeat;
     background-position: left center;
     padding: 0px 0px 0px 10px;
@@ -799,7 +799,7 @@ span.signature {
 
 a.attachment {
     padding-left: 14px;
-    background-image: url(Images/Attachment.png);
+    background-image: url('images/Attachment.png');
     background-repeat: no-repeat;
     background-position: left center;
 }
@@ -816,7 +816,7 @@ a.attachment {
     padding-left: 24px;
     margin-left: 10px;
     font-size: 14px;
-    background-image: url(Images/Redirect.png);
+    background-image: url('images/Redirect.png');
     background-repeat: no-repeat;
     background-position: left center;
 }
@@ -1024,28 +1024,28 @@ div.categorycreation {
 
 h3.searchresultpage {
     margin-top: 14px;
-    background-image: url(Images/Page.png);
+    background-image: url('images/Page.png');
     background-repeat: no-repeat;
     background-position: left center;
     padding-left: 18px;
 }
 h3.searchresultmessage {
     margin-top: 14px;
-    background-image: url(Images/Message.png);
+    background-image: url('images/Message.png');
     background-repeat: no-repeat;
     background-position: left center;
     padding-left: 18px;
 }
 h3.searchresultfile {
     margin-top: 14px;
-    background-image: url(Images/File.png);
+    background-image: url('images/File.png');
     background-repeat: no-repeat;
     background-position: left center;
     padding-left: 18px;
 }
 h3.searchresultattachment {
     margin-top: 14px;
-    background-image: url(Images/Attachment.png);
+    background-image: url('images/Attachment.png');
     background-repeat: no-repeat;
     background-position: left center;
     padding-left: 18px;
@@ -1278,4 +1278,16 @@ div.cleanupleft {
 #VisualEditorBody, #ToolWindowBody {
     /*background-color: #FFFFFF;
     background-image: none;*/
+}
+
+#UnfuddleTicketsDiv {
+    border: 1px solid #286d93;
+}
+
+#UnfuddleTicketsDiv h2 {
+    display: none;
+}
+
+#UnfuddleTicketsDiv .tableheader {
+    background-color: #286d93;
 }
