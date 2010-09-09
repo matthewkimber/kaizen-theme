@@ -1281,13 +1281,34 @@ div.cleanupleft {
 }
 
 #UnfuddleTicketsDiv {
-    border: 1px solid #286d93;
+    border: 2px solid #286d93;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    height: 200px;
+    overflow: auto;
 }
 
 #UnfuddleTicketsDiv h2 {
     display: none;
 }
 
-#UnfuddleTicketsDiv .tableheader {
-    background-color: #286d93;
+#UnfuddleTicketsDiv table {
+    border: none;
+}
+
+#UnfuddleTicketsDiv thead {
+    display: none;
+}
+
+.TicketCell {
+    font-size: 12px;
+    padding: 10px;
+}
+
+.TicketRow {
+}
+
+.TicketAlternatingRow {
+    background: #286d93;
 }
