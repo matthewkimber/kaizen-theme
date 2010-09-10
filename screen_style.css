@@ -1310,5 +1310,6 @@ div.cleanupleft {
 }
 
 .TicketAlternatingRow {
+    opacity: 0.9;
     background: #286d93;
 }
