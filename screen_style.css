@@ -1182,7 +1182,15 @@ p.excerpt b.searchkeyword, b.searchkeyword {
     padding: 8px;
 }
 
+#HeaderSADiv h1 {
+    background: url('images/header/logo.png') no-repeat top left;
+    width: 345px;
+    height: 55px;
+    text-indent: -9999px;
+}
+
 #NavigationSADiv {
+    background: url('images/common/white-75p-background.png') repeat;
     margin: 0px auto 0px auto;
     width: 90%;
     padding: 8px;
@@ -1200,6 +1208,10 @@ p.excerpt b.searchkeyword, b.searchkeyword {
     margin: 8px auto 8px auto;
     width: 90%;
     padding: 0px;
+}
+
+#FooterSADiv > #FooterColumnsDiv {
+    display: none;
 }
 
 /* END Non-content pages */
