@@ -32,7 +32,11 @@ function FixUnfuddleLayout() {
     $("#UnfuddleTicketsDiv tr td:nth-child(1)").css("display", "none");
     $("#UnfuddleTicketsDiv tr").removeClass("priority_{priority}");
     $("#UnfuddleTicketsDiv tr").removeClass("tablerow");
+    $("#UnfuddleTicketsDiv tr").removeClass("tablerowalternate");
+    $("#UnfuddleTicketsDiv td").removeClass("priority_1");
+    $("#UnfuddleTicketsDiv td").removeClass("priority_2");
     $("#UnfuddleTicketsDiv td").removeClass("priority_3");
+    $("#UnfuddleTicketsDiv td").removeClass("priority_4");
     $("#UnfuddleTicketsDiv td").addClass("TicketCell");
     $("#UnfuddleTicketsDiv tr").addClass("TicketRow");
     $("#UnfuddleTicketsDiv tr:nth-child(odd)").addClass("TicketAlternatingRow");

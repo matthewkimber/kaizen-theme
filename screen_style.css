@@ -1301,6 +1301,10 @@ div.cleanupleft {
     overflow: auto;
 }
 
+#UnfuddleTicketsDiv br {
+    display: none;
+}
+
 #UnfuddleTicketsDiv h2 {
     display: none;
 }
